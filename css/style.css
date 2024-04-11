@@ -32,6 +32,7 @@ header {
     position: fixed;
     left: 0;
     right: 0;
+    z-index: 1;
     border-bottom: 1.5px solid lightgray;
 }
 
@@ -41,7 +42,7 @@ header img {
 }
 
 main {
-    padding: 6rem 0 3rem;
+    padding: 6rem 0 2rem;
 }
 
 main section.products {
@@ -56,6 +57,11 @@ main section.products div.row article {
 article img {
     width: 100%;
     object-fit: contain;
+}
+
+div.product-img span {
+    padding: .35em .7em;
+    bottom: 2rem;
 }
 
 footer {
@@ -81,11 +87,34 @@ footer p {
     align-items: center;
 }
 
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute
+}
+
+.p-left0 {
+    left: 0;
+}
+
+.p-left4 {
+    left: 4em;
+}
+
 /* ** STYLE */
 /*  --orange: #ff6900;
     --green: #008000;
     --darkgrey: #1a1a1a;
 */
+.bg-green {
+    background-color: #008000;
+}
+
+.bg-red {
+    background-color: red;
+}
 
 .font-white {
     color: white;
