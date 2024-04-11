@@ -14,7 +14,8 @@ ul {
 
 li,
 i {
-    margin: 0 .4em;
+    margin-right: .6em;
+    cursor: pointer;
 }
 
 p {
@@ -40,7 +41,7 @@ header img {
 }
 
 main {
-    padding-top: 6rem;
+    padding: 6rem 0 3rem;
 }
 
 main section.products {
@@ -55,6 +56,15 @@ main section.products div.row article {
 article img {
     width: 100%;
     object-fit: contain;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 2rem 9.5rem;
+}
+
+footer p {
+    margin-bottom: .8em;
 }
 
 /*    **    */
