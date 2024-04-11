@@ -15,6 +15,12 @@ ul {
 li,
 i {
     margin-right: .6em;
+}
+
+li,
+i,
+article img,
+div.favourite {
     cursor: pointer;
 }
 
@@ -59,9 +65,31 @@ article img {
     object-fit: contain;
 }
 
+article img.hover-photo,
+article:hover img.photo {
+    display: none;
+}
+
+article:hover img.hover-photo {
+    display: block;
+}
+
 div.product-img span {
     padding: .35em .7em;
     bottom: 2rem;
+}
+
+div.favourite {
+    right: 0;
+    top: .3em;
+    padding: .2em .4em .1em;
+    background-color: white;
+    color: black;
+    font-size: 2.5em;
+}
+
+div.favourite:hover {
+    color: red;
 }
 
 footer {
