@@ -3,3 +3,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li,
+i {
+    margin: 0 .4em;
+}
+
+div.container {
+    max-width: 1300px;
+}
+
+header {
+    background-color: #ff6900;
+    padding: 1rem 10rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+header img {
+    width: 6.5em;
+    object-fit: contain;
+}
+
+/*    **    */
+.m-center {
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.center-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.font-small {
+    font-size: .8em;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+/* ** STYLE */
+/*  --orange: #ff6900;
+    --lightgrey: #e8e9e5;
+    --green: #008000;
+    --red: #ff0000;
+    --darkgrey: #1a1a1a;
+*/
+
+.font-white {
+    color: white;
+}
